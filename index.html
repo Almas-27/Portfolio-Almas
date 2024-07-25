@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almas's - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                Almas
+            </h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section>
+        <div class="s-container">
+            <div class="content">
+                <span class="subtitle">
+                    About Me
+                </span>
+                <h1 class="title">
+                    I'm <span>Almas <br></span> a Front End Developer
+                </h1>
+                <p class="description">
+                    Welcome to my  Portfolio! I'm Almas currently pursuing my Btech in CSE and a dedicated front end developer
+                </p>
+               
+            </div>
+            <div class="image">
+                <img src="img 2.jpg" alt="pfp">
+            </div>
+         
+    
+</div>    
+<section id="academics">
+    <div class="section-content">
+        <h2>Academics</h2>
+        <table border="1">
+            <tr>
+                <th>Degree</th>
+                <th>Institute</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <th>10th</th>
+                <th>SCTS</th>
+                <th>NA</th>
+            </tr>
+            <tr>    
+                <th>Inter</th>
+                <th>SCTS</th>
+                <th>MPC</th>
+            </tr>
+            <tr>
+                <th>Btech</th>
+                <th>SRM</th>
+                <th>CSE</th>
+            </tr>
+        </table>
+    </div>
+</section>
+<section id="skills">
+    <div class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>C-language</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+    </div>
+</section>
+<section id="contact">
+    <div class="section-content">
+      <h2>Contact</h2>
+      <p>Phone: 7995XXXXXX</p>
+      <p>Email: almasrayanshariff_shaik@gmail.com</p>
+      <p>Social media : <a href="https://www.linkedin.com/feed/">linkedin</a></p>
+    </div>
+  </section> 
+  <footer>
+    <p>&copy 2024 student portfolio</p>
+</footer>
+<button class="top-button" id="top-button">Top</button>
+<script src="script.js">
+    
+</script>
+
+
+</body>
+<script>
+    const btn= document.getElementById("btn")
+    btn.addEventListener("click", () => {
+        document.querySelector("header ul").classList.toggle("show")
+    })
+</script>
+</html>
